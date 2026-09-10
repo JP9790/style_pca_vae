@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+venv-vae/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Matplotlib cache
+.mplcache/
+**/.mplcache/
+nist_test_adapter/.mplcache/
+
+# Raw / processed handwriting data
+Test_write/
+Test_write_copy/
+output/
+output_copy/
+thinned_images/
+thinned_user_*/
+nist_test_adapter/thinned_images/
+
+# ProMP libraries and personalization outputs
+library_out/
+generic_library/
+User_*_ProMP_library*/
+user_*_digit_library*/
+user*_digit_generic_library/
+user*_alphabet_generic_library/
+*_digit_library/
+*_digit_library_output/
+*_alphabet_library/
+*_alphabet_library_output/
+
+# ProMP results, checkpoints, visualizations
+ProMP/vis*/
+ProMP/promp_vae*/
+ProMP/personalization_methods_comparison/
+ProMP/*.npz
+ProMP/*.csv
+ProMP/*.json
+ProMP/*.txt
+!ProMP/README_personalization_methods.md
+
+# Traffic / NGSIM data and evaluation outputs
+*.csv
+Next_Generation_Simulation*.csv
+Traffic/*.npz
+Traffic/*.json
+Traffic/_tmp*/
+Traffic/_test*/
+Traffic/style_eval_results/
+Traffic/.mplcache/
+
+# Misc local outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.pt
+*.pth
+*.ckpt
