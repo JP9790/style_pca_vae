@@ -166,4 +166,4 @@ requirements.txt
 
 - Default ProMP settings are typically `--n_basis 20` and `--width 0.05`.
 - VAE training uses PyTorch; set `--device cuda` when a GPU is available.
-- Generated artifacts (`*.npz`, `*.csv`, `vis*/`, libraries, raw images, NGSIM CSV) stay local via `.gitignore`.
+
